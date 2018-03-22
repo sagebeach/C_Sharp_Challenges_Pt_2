@@ -1,0 +1,7 @@
+C:\Users\Tropical Beach\Documents\VS-Source\repos\CS-ASP_035-Challenge_Code\ChallengePhunWithStrings\ChallengePhunWithStrings\bin\ChallengePhunWithStrings.dll.config
+C:\Users\Tropical Beach\Documents\VS-Source\repos\CS-ASP_035-Challenge_Code\ChallengePhunWithStrings\ChallengePhunWithStrings\bin\ChallengePhunWithStrings.dll
+C:\Users\Tropical Beach\Documents\VS-Source\repos\CS-ASP_035-Challenge_Code\ChallengePhunWithStrings\ChallengePhunWithStrings\bin\ChallengePhunWithStrings.pdb
+C:\Users\Tropical Beach\Documents\VS-Source\repos\CS-ASP_035-Challenge_Code\ChallengePhunWithStrings\ChallengePhunWithStrings\obj\Debug\ChallengePhunWithStrings.csprojResolveAssemblyReference.cache
+C:\Users\Tropical Beach\Documents\VS-Source\repos\CS-ASP_035-Challenge_Code\ChallengePhunWithStrings\ChallengePhunWithStrings\obj\Debug\ChallengePhunWithStrings.csproj.CoreCompileInputs.cache
+C:\Users\Tropical Beach\Documents\VS-Source\repos\CS-ASP_035-Challenge_Code\ChallengePhunWithStrings\ChallengePhunWithStrings\obj\Debug\ChallengePhunWithStrings.dll
+C:\Users\Tropical Beach\Documents\VS-Source\repos\CS-ASP_035-Challenge_Code\ChallengePhunWithStrings\ChallengePhunWithStrings\obj\Debug\ChallengePhunWithStrings.pdb

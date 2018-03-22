@@ -1,0 +1,6 @@
+C:\Users\tropi\Documents\VS-Source\repos\Darts\Darts\bin\Debug\Darts.dll
+C:\Users\tropi\Documents\VS-Source\repos\Darts\Darts\bin\Debug\Darts.pdb
+C:\Users\tropi\Documents\VS-Source\repos\Darts\Darts\obj\Debug\Darts.csprojResolveAssemblyReference.cache
+C:\Users\tropi\Documents\VS-Source\repos\Darts\Darts\obj\Debug\Darts.csproj.CoreCompileInputs.cache
+C:\Users\tropi\Documents\VS-Source\repos\Darts\Darts\obj\Debug\Darts.dll
+C:\Users\tropi\Documents\VS-Source\repos\Darts\Darts\obj\Debug\Darts.pdb
