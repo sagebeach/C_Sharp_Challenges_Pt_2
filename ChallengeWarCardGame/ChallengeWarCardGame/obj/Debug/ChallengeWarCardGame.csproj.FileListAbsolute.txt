@@ -25,3 +25,13 @@ C:\Users\tropi\Documents\Projects\GITHUB\ChallengeWarCardGame\ChallengeWarCardGa
 C:\Users\tropi\Documents\Projects\GITHUB\ChallengeWarCardGame\ChallengeWarCardGame\obj\Debug\ChallengeWarCardGame.csproj.CoreCompileInputs.cache
 C:\Users\tropi\Documents\Projects\GITHUB\ChallengeWarCardGame\ChallengeWarCardGame\obj\Debug\ChallengeWarCardGame.dll
 C:\Users\tropi\Documents\Projects\GITHUB\ChallengeWarCardGame\ChallengeWarCardGame\obj\Debug\ChallengeWarCardGame.pdb
+C:\Users\tropi\Documents\Projects\GITHUB\C_Sharp_Challenges_Pt_2\ChallengeWarCardGame\ChallengeWarCardGame\bin\ChallengeWarCardGame.dll.config
+C:\Users\tropi\Documents\Projects\GITHUB\C_Sharp_Challenges_Pt_2\ChallengeWarCardGame\ChallengeWarCardGame\bin\ChallengeWarCardGame.dll
+C:\Users\tropi\Documents\Projects\GITHUB\C_Sharp_Challenges_Pt_2\ChallengeWarCardGame\ChallengeWarCardGame\bin\ChallengeWarCardGame.pdb
+C:\Users\tropi\Documents\Projects\GITHUB\C_Sharp_Challenges_Pt_2\ChallengeWarCardGame\ChallengeWarCardGame\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\tropi\Documents\Projects\GITHUB\C_Sharp_Challenges_Pt_2\ChallengeWarCardGame\ChallengeWarCardGame\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\tropi\Documents\Projects\GITHUB\C_Sharp_Challenges_Pt_2\ChallengeWarCardGame\ChallengeWarCardGame\obj\Debug\ChallengeWarCardGame.csprojResolveAssemblyReference.cache
+C:\Users\tropi\Documents\Projects\GITHUB\C_Sharp_Challenges_Pt_2\ChallengeWarCardGame\ChallengeWarCardGame\obj\Debug\ChallengeWarCardGame.csproj.CoreCompileInputs.cache
+C:\Users\tropi\Documents\Projects\GITHUB\C_Sharp_Challenges_Pt_2\ChallengeWarCardGame\ChallengeWarCardGame\obj\Debug\ChallengeWarCardGame.csproj.CopyComplete
+C:\Users\tropi\Documents\Projects\GITHUB\C_Sharp_Challenges_Pt_2\ChallengeWarCardGame\ChallengeWarCardGame\obj\Debug\ChallengeWarCardGame.dll
+C:\Users\tropi\Documents\Projects\GITHUB\C_Sharp_Challenges_Pt_2\ChallengeWarCardGame\ChallengeWarCardGame\obj\Debug\ChallengeWarCardGame.pdb

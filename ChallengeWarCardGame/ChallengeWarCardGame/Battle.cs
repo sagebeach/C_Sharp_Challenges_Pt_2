@@ -9,16 +9,16 @@ namespace ChallengeWarCardGame
     public class Battle
     {
 
-        private List<Card> _bounty;
+        private List<Card> _bounty; //used to store the cards used for each battle round.
         private StringBuilder _sb;
 
         public Battle()
         {
             _bounty = new List<Card>();
-            _sb = new StringBuilder();
+            _sb = new StringBuilder(); //could refactor with output class to handle results output for each method call rather than one string built in memory
         }
 
-        public string performBattle(Player player1, Player player2)
+        public string performBattle(Player player1, Player player2) //called by Game: Play() calls internal method evaluating the cards drawn.
         {
             Card player1Card = getCard(player1);
             Card player2Card = getCard(player2);
@@ -28,13 +28,13 @@ namespace ChallengeWarCardGame
         }
         private Card getCard(Player player)
         {
-            Card card = player.Cards.ElementAt(0);
-            player.Cards.Remove(card);
+            Card card = player.Hand.ElementAt(0);
+            player.Hand.Remove(card);
             _bounty.Add(card);
             return card;
         }
 
-        private void performEvaluation(Player player1, Player player2, Card card1, Card card2)
+        private void performEvaluation(Player player1, Player player2, Card card1, Card card2) //determines which card wins or, in the case of a draw, calls the war scenario.
         {
             displayBattleCards(card1, card2);
             if (card1.CardValue() == card2.CardValue())
@@ -45,11 +45,11 @@ namespace ChallengeWarCardGame
                 awardWinner(player2);
         }
 
-        private void awardWinner(Player player)
+        private void awardWinner(Player player) //called by performEvaluation() to ouput the result of the battle round to the sb for display.
         {
             if (_bounty.Count == 0) return;
             displayBountyCards();
-            player.Cards.AddRange(_bounty);
+            player.Hand.AddRange(_bounty);
             _bounty.Clear();
 
             _sb.Append("<br/><strong>");
@@ -57,7 +57,7 @@ namespace ChallengeWarCardGame
             _sb.Append(" wins!</strong><br/>");
         }
 
-        private void war(Player player1, Player player2)
+        private void war(Player player1, Player player2) //handles battle logic for war condition.
         {
             _sb.Append("<br/>*****************WAR*****************");
             getCard(player1);

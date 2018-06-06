@@ -13,23 +13,15 @@ namespace ChallengeWarCardGame
         private StringBuilder _sb;
 
         public Deck()
-        {
-            _deck = new List<Card>();
-            /*
-            _deck = new List<Card>()
-            {
-               new Card {Suit="Clubs", Rank="2"}, //... dont hard code that ish
-            };
-            */
-
-            _deck = new List<Card>();
+        {            
+            _deck = new List<Card>(); //instantiates the list used to store the cards after randomization
             _random = new Random();
-            _sb = new StringBuilder();
+            _sb = new StringBuilder(); //could refactor with output class to handle results output for each method call rather than one string built in memory
 
             string[] suits = new string[] { "Clubs", "Diamonds", "Hearts", "Spades" };
             String[] ranks = new string[] { "2", "3", "4", "5", "6", "7", "8", "9", "10", "Jack", "Queen", "King", "Ace"};
 
-            foreach (var suit in suits)
+            foreach (var suit in suits) //since we know we are working with a predetermined set of cards (52) there is no risk using this nested loop. O(1). Would need refactoring if card count was variable O(n)
             {
                 foreach (var rank in ranks)
                 {
@@ -49,13 +41,13 @@ namespace ChallengeWarCardGame
             return _sb.ToString();
         }
 
-        private void dealCard(Player player)
+        private void dealCard(Player player) //randomly grabs one card from the list of cards (_deck) and assigns it to the list (Cards) of the specific player passed in.
         {
             Card card = _deck.ElementAt(_random.Next(_deck.Count));
-            player.Cards.Add(card);
+            player.Hand.Add(card);
             _deck.Remove(card);
 
-            _sb.Append("<br/>");
+            _sb.Append("<br/>"); //for testing purposes, each time the method is called this adds the current dealt card to the stringbuilder for display. Inefficient because this saves all output as one string rather than outputting results each call. 
             _sb.Append(player.Name);
             _sb.Append(" is dealt the ");
             _sb.Append(card.Rank);

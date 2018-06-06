@@ -9,7 +9,7 @@
         {
             int value = 0;
 
-            switch (this.Rank)
+            switch (this.Rank) //since deck lists are built using string values, this switch reads the card and assigns a int value for use in performEvaluation(). See Battle.cs
             {
                 case "Jack":
                     value = 11;
@@ -24,7 +24,7 @@
                     value = 14;
                     break;
                 default:
-                    value = int.Parse(this.Rank);
+                    value = int.Parse(this.Rank); //if not a face card this parses the current card for its face value
                     break;
             }
 
